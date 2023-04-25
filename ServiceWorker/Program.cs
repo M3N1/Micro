@@ -1,4 +1,6 @@
 using ServiceWorker;
+using NLog;
+using NLog.Web;
 
 IHost host = Host.CreateDefaultBuilder(args)
 .ConfigureServices(services =>
