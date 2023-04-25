@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mathi\\source\\Micro\\Maintenance\\Maintenance.csproj": {}
+    "C:\\FraOneDrive\\Dokumenter\\Erhvers Akademi Aarhus IT-Arkitektur 2021\\4 Semester\\IT-arkitektur & IT-infrastruktur\\Opgaver\\Modul12\\Micro\\Maintenance\\Maintenance.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mathi\\source\\Micro\\Maintenance\\Maintenance.csproj": {
+    "C:\\FraOneDrive\\Dokumenter\\Erhvers Akademi Aarhus IT-Arkitektur 2021\\4 Semester\\IT-arkitektur & IT-infrastruktur\\Opgaver\\Modul12\\Micro\\Maintenance\\Maintenance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mathi\\source\\Micro\\Maintenance\\Maintenance.csproj",
+        "projectUniqueName": "C:\\FraOneDrive\\Dokumenter\\Erhvers Akademi Aarhus IT-Arkitektur 2021\\4 Semester\\IT-arkitektur & IT-infrastruktur\\Opgaver\\Modul12\\Micro\\Maintenance\\Maintenance.csproj",
         "projectName": "Maintenance",
-        "projectPath": "C:\\Users\\mathi\\source\\Micro\\Maintenance\\Maintenance.csproj",
-        "packagesPath": "C:\\Users\\mathi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mathi\\source\\Micro\\Maintenance\\obj\\",
+        "projectPath": "C:\\FraOneDrive\\Dokumenter\\Erhvers Akademi Aarhus IT-Arkitektur 2021\\4 Semester\\IT-arkitektur & IT-infrastruktur\\Opgaver\\Modul12\\Micro\\Maintenance\\Maintenance.csproj",
+        "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
+        "outputPath": "C:\\FraOneDrive\\Dokumenter\\Erhvers Akademi Aarhus IT-Arkitektur 2021\\4 Semester\\IT-arkitektur & IT-infrastruktur\\Opgaver\\Modul12\\Micro\\Maintenance\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +43,18 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.4, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.1.3, )"
+            },
+            "NLog.Targets.Loki": {
+              "target": "Package",
+              "version": "[1.4.6, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.2.3, )"
             },
             "RabbitMQ.Client": {
               "target": "Package",

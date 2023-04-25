@@ -1,6 +1,21 @@
-version: '3.9'
+version: "3.9"
 
 services:
+  loki:
+    image: grafana/loki
+    ports:
+      - "3100:3100"
+    command: -config.file=/etc/loki/local-config.yaml
+    networks:
+      - default
+
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3000:3000"
+    networks:
+      - default
+
   taxabooking:
     image: braunerr/taxabooking:latest
     container_name: taxabooking
@@ -70,3 +85,4 @@ volumes:
 networks:
   default:
     driver: bridge
+  loki:

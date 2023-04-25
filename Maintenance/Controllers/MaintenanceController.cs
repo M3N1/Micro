@@ -19,6 +19,11 @@ public class MaintenanceController : ControllerBase
 
         _logger.LogInformation($"Filepath: {_filePath}");
         _logger.LogInformation($"Connection: {_hostName}");
+
+        var hostName = System.Net.Dns.GetHostName();
+        var ips = System.Net.Dns.GetHostAddresses(hostName);
+        var _ipaddr = ips.First().MapToIPv4().ToString();
+        _logger.LogInformation(1, $"Taxabooking responding from {_ipaddr}");
     }
 
     // Opretter Plan ud fra Booking
