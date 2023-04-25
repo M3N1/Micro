@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\FraOneDrive\\Dokumenter\\Erhvers Akademi Aarhus IT-Arkitektur 2021\\4 Semester\\IT-arkitektur & IT-infrastruktur\\Opgaver\\Modul12\\Micro\\ServiceWorker\\ServiceWorker.csproj": {}
+    "C:\\Users\\mathi\\Skol\\Skole\\It-infrastruktur-og-arkitektur\\Micro\\ServiceWorker\\ServiceWorker.csproj": {}
   },
   "projects": {
-    "C:\\FraOneDrive\\Dokumenter\\Erhvers Akademi Aarhus IT-Arkitektur 2021\\4 Semester\\IT-arkitektur & IT-infrastruktur\\Opgaver\\Modul12\\Micro\\ServiceWorker\\ServiceWorker.csproj": {
+    "C:\\Users\\mathi\\Skol\\Skole\\It-infrastruktur-og-arkitektur\\Micro\\ServiceWorker\\ServiceWorker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FraOneDrive\\Dokumenter\\Erhvers Akademi Aarhus IT-Arkitektur 2021\\4 Semester\\IT-arkitektur & IT-infrastruktur\\Opgaver\\Modul12\\Micro\\ServiceWorker\\ServiceWorker.csproj",
+        "projectUniqueName": "C:\\Users\\mathi\\Skol\\Skole\\It-infrastruktur-og-arkitektur\\Micro\\ServiceWorker\\ServiceWorker.csproj",
         "projectName": "ServiceWorker",
-        "projectPath": "C:\\FraOneDrive\\Dokumenter\\Erhvers Akademi Aarhus IT-Arkitektur 2021\\4 Semester\\IT-arkitektur & IT-infrastruktur\\Opgaver\\Modul12\\Micro\\ServiceWorker\\ServiceWorker.csproj",
-        "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-        "outputPath": "C:\\FraOneDrive\\Dokumenter\\Erhvers Akademi Aarhus IT-Arkitektur 2021\\4 Semester\\IT-arkitektur & IT-infrastruktur\\Opgaver\\Modul12\\Micro\\ServiceWorker\\obj\\",
+        "projectPath": "C:\\Users\\mathi\\Skol\\Skole\\It-infrastruktur-og-arkitektur\\Micro\\ServiceWorker\\ServiceWorker.csproj",
+        "packagesPath": "C:\\Users\\mathi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mathi\\Skol\\Skole\\It-infrastruktur-og-arkitektur\\Micro\\ServiceWorker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +43,18 @@
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
               "version": "[7.0.1, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.1.3, )"
+            },
+            "NLog.Targets.Loki": {
+              "target": "Package",
+              "version": "[1.4.6, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.2.3, )"
             },
             "RabbitMQ.Client": {
               "target": "Package",

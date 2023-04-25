@@ -53,3 +53,30 @@ C:\FraOneDrive\Dokumenter\Erhvers Akademi Aarhus IT-Arkitektur 2021\4 Semester\I
 C:\FraOneDrive\Dokumenter\Erhvers Akademi Aarhus IT-Arkitektur 2021\4 Semester\IT-arkitektur & IT-infrastruktur\Opgaver\Modul12\Micro\ServiceWorker\obj\Debug\net7.0\ServiceWorker.dll
 C:\FraOneDrive\Dokumenter\Erhvers Akademi Aarhus IT-Arkitektur 2021\4 Semester\IT-arkitektur & IT-infrastruktur\Opgaver\Modul12\Micro\ServiceWorker\obj\Debug\net7.0\refint\ServiceWorker.dll
 C:\FraOneDrive\Dokumenter\Erhvers Akademi Aarhus IT-Arkitektur 2021\4 Semester\IT-arkitektur & IT-infrastruktur\Opgaver\Modul12\Micro\ServiceWorker\obj\Debug\net7.0\ServiceWorker.pdb
+C:\Users\mathi\Skol\Skole\It-infrastruktur-og-arkitektur\Micro\ServiceWorker\obj\Debug\net7.0\ServiceWorker.csproj.AssemblyReference.cache
+C:\Users\mathi\Skol\Skole\It-infrastruktur-og-arkitektur\Micro\ServiceWorker\obj\Debug\net7.0\ServiceWorker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathi\Skol\Skole\It-infrastruktur-og-arkitektur\Micro\ServiceWorker\obj\Debug\net7.0\ServiceWorker.AssemblyInfoInputs.cache
+C:\Users\mathi\Skol\Skole\It-infrastruktur-og-arkitektur\Micro\ServiceWorker\obj\Debug\net7.0\ServiceWorker.AssemblyInfo.cs
+C:\Users\mathi\Skol\Skole\It-infrastruktur-og-arkitektur\Micro\ServiceWorker\obj\Debug\net7.0\ServiceWorker.csproj.CoreCompileInputs.cache
+C:\Users\mathi\Skol\Skole\It-infrastruktur-og-arkitektur\Micro\ServiceWorker\obj\Debug\net7.0\ServiceWorker.dll
+C:\Users\mathi\Skol\Skole\It-infrastruktur-og-arkitektur\Micro\ServiceWorker\obj\Debug\net7.0\refint\ServiceWorker.dll
+C:\Users\mathi\Skol\Skole\It-infrastruktur-og-arkitektur\Micro\ServiceWorker\obj\Debug\net7.0\ServiceWorker.pdb
+C:\Users\mathi\Skol\Skole\It-infrastruktur-og-arkitektur\Micro\ServiceWorker\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\mathi\Skol\Skole\It-infrastruktur-og-arkitektur\Micro\ServiceWorker\bin\Debug\net7.0\appsettings.json
+C:\Users\mathi\Skol\Skole\It-infrastruktur-og-arkitektur\Micro\ServiceWorker\bin\Debug\net7.0\NLog.config
+C:\Users\mathi\Skol\Skole\It-infrastruktur-og-arkitektur\Micro\ServiceWorker\bin\Debug\net7.0\ServiceWorker.exe
+C:\Users\mathi\Skol\Skole\It-infrastruktur-og-arkitektur\Micro\ServiceWorker\bin\Debug\net7.0\ServiceWorker.deps.json
+C:\Users\mathi\Skol\Skole\It-infrastruktur-og-arkitektur\Micro\ServiceWorker\bin\Debug\net7.0\ServiceWorker.runtimeconfig.json
+C:\Users\mathi\Skol\Skole\It-infrastruktur-og-arkitektur\Micro\ServiceWorker\bin\Debug\net7.0\ServiceWorker.dll
+C:\Users\mathi\Skol\Skole\It-infrastruktur-og-arkitektur\Micro\ServiceWorker\bin\Debug\net7.0\ServiceWorker.pdb
+C:\Users\mathi\Skol\Skole\It-infrastruktur-og-arkitektur\Micro\ServiceWorker\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\mathi\Skol\Skole\It-infrastruktur-og-arkitektur\Micro\ServiceWorker\bin\Debug\net7.0\Microsoft.Extensions.Hosting.dll
+C:\Users\mathi\Skol\Skole\It-infrastruktur-og-arkitektur\Micro\ServiceWorker\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\mathi\Skol\Skole\It-infrastruktur-og-arkitektur\Micro\ServiceWorker\bin\Debug\net7.0\NLog.dll
+C:\Users\mathi\Skol\Skole\It-infrastruktur-og-arkitektur\Micro\ServiceWorker\bin\Debug\net7.0\NLog.Extensions.Logging.dll
+C:\Users\mathi\Skol\Skole\It-infrastruktur-og-arkitektur\Micro\ServiceWorker\bin\Debug\net7.0\NLog.Web.AspNetCore.dll
+C:\Users\mathi\Skol\Skole\It-infrastruktur-og-arkitektur\Micro\ServiceWorker\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Users\mathi\Skol\Skole\It-infrastruktur-og-arkitektur\Micro\ServiceWorker\obj\Debug\net7.0\ServiceWorker.csproj.CopyComplete
+C:\Users\mathi\Skol\Skole\It-infrastruktur-og-arkitektur\Micro\ServiceWorker\obj\Debug\net7.0\ServiceWorker.genruntimeconfig.cache
+C:\Users\mathi\Skol\Skole\It-infrastruktur-og-arkitektur\Micro\ServiceWorker\obj\Debug\net7.0\ref\ServiceWorker.dll
+C:\Users\mathi\Skol\Skole\It-infrastruktur-og-arkitektur\Micro\ServiceWorker\bin\Debug\net7.0\NLog.Loki.dll

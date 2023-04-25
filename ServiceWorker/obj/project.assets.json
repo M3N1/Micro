@@ -536,6 +536,68 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "NLog/5.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NLog.Extensions.Logging/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "NLog": "5.1.3"
+        },
+        "compile": {
+          "lib/net6.0/NLog.Extensions.Logging.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/NLog.Extensions.Logging.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NLog.Targets.Loki/1.4.6": {
+        "type": "package",
+        "dependencies": {
+          "NLog": "4.7.15"
+        },
+        "compile": {
+          "lib/net7.0/NLog.Loki.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/NLog.Loki.dll": {}
+        }
+      },
+      "NLog.Web.AspNetCore/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "NLog.Extensions.Logging": "5.2.3"
+        },
+        "compile": {
+          "lib/net6.0/NLog.Web.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/NLog.Web.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "RabbitMQ.Client/6.5.0": {
         "type": "package",
         "dependencies": {
@@ -1400,6 +1462,93 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "NLog/5.1.3": {
+      "sha512": "rB8hwjBf1EZCfG5iPfsv3gPksLoJLr1cOrt7PBbJu6VpJgwYJchDzTUT1dhNDdPv0QakXJQJOhE59ErupcznQQ==",
+      "type": "package",
+      "path": "nlog/5.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "N.png",
+        "lib/net35/NLog.dll",
+        "lib/net35/NLog.xml",
+        "lib/net45/NLog.dll",
+        "lib/net45/NLog.xml",
+        "lib/net46/NLog.dll",
+        "lib/net46/NLog.xml",
+        "lib/netstandard1.3/NLog.dll",
+        "lib/netstandard1.3/NLog.xml",
+        "lib/netstandard1.5/NLog.dll",
+        "lib/netstandard1.5/NLog.xml",
+        "lib/netstandard2.0/NLog.dll",
+        "lib/netstandard2.0/NLog.xml",
+        "nlog.5.1.3.nupkg.sha512",
+        "nlog.nuspec"
+      ]
+    },
+    "NLog.Extensions.Logging/5.2.3": {
+      "sha512": "TB8zPGV2nVpvWq5C8zIVHPSmnzOHMrXppjsAwHcuJq1Ehs8sC0llnAv5Ysf5Lf/vew9amV/+01MohtRFSDzKdQ==",
+      "type": "package",
+      "path": "nlog.extensions.logging/5.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "N.png",
+        "lib/net461/NLog.Extensions.Logging.dll",
+        "lib/net461/NLog.Extensions.Logging.xml",
+        "lib/net6.0/NLog.Extensions.Logging.dll",
+        "lib/net6.0/NLog.Extensions.Logging.xml",
+        "lib/netstandard1.3/NLog.Extensions.Logging.dll",
+        "lib/netstandard1.3/NLog.Extensions.Logging.xml",
+        "lib/netstandard1.5/NLog.Extensions.Logging.dll",
+        "lib/netstandard1.5/NLog.Extensions.Logging.xml",
+        "lib/netstandard2.0/NLog.Extensions.Logging.dll",
+        "lib/netstandard2.0/NLog.Extensions.Logging.xml",
+        "lib/netstandard2.1/NLog.Extensions.Logging.dll",
+        "lib/netstandard2.1/NLog.Extensions.Logging.xml",
+        "nlog.extensions.logging.5.2.3.nupkg.sha512",
+        "nlog.extensions.logging.nuspec"
+      ]
+    },
+    "NLog.Targets.Loki/1.4.6": {
+      "sha512": "AOfVvNR3Pw1hH1Pur0m6XYzL+BPDCbSicI2aBSFvM5wWU+JuvV9DqRZOAT5eExvTQGghdifV8TojYZn8JGcRBg==",
+      "type": "package",
+      "path": "nlog.targets.loki/1.4.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "lib/net6.0/NLog.Loki.dll",
+        "lib/net7.0/NLog.Loki.dll",
+        "lib/netstandard2.0/NLog.Loki.dll",
+        "nlog.targets.loki.1.4.6.nupkg.sha512",
+        "nlog.targets.loki.nuspec"
+      ]
+    },
+    "NLog.Web.AspNetCore/5.2.3": {
+      "sha512": "uP0KekbkswuMjo1dbaqu20TxH2Dc3ox2qJDIi837ob2Fq/BliZHuQY9nJdM3UArVrLrsl+xxsx0D6h8m3fOufg==",
+      "type": "package",
+      "path": "nlog.web.aspnetcore/5.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "N.png",
+        "README.md",
+        "lib/net461/NLog.Web.AspNetCore.dll",
+        "lib/net461/NLog.Web.AspNetCore.xml",
+        "lib/net5.0/NLog.Web.AspNetCore.dll",
+        "lib/net5.0/NLog.Web.AspNetCore.xml",
+        "lib/net6.0/NLog.Web.AspNetCore.dll",
+        "lib/net6.0/NLog.Web.AspNetCore.xml",
+        "lib/netcoreapp3.1/NLog.Web.AspNetCore.dll",
+        "lib/netcoreapp3.1/NLog.Web.AspNetCore.xml",
+        "lib/netstandard2.0/NLog.Web.AspNetCore.dll",
+        "lib/netstandard2.0/NLog.Web.AspNetCore.xml",
+        "nlog.web.aspnetcore.5.2.3.nupkg.sha512",
+        "nlog.web.aspnetcore.nuspec"
+      ]
+    },
     "RabbitMQ.Client/6.5.0": {
       "sha512": "9hY5HiWPtCla1/l0WmXmLnqoX7iKE3neBQUWnetIJrRpOvTbO//XQfQDh++xgHCshL40Kv/6bR0HDkmJz46twg==",
       "type": "package",
@@ -1634,23 +1783,26 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.Extensions.Hosting >= 7.0.1",
+      "NLog >= 5.1.3",
+      "NLog.Targets.Loki >= 1.4.6",
+      "NLog.Web.AspNetCore >= 5.2.3",
       "RabbitMQ.Client >= 6.5.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\micha\\.nuget\\packages\\": {}
+    "C:\\Users\\mathi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\FraOneDrive\\Dokumenter\\Erhvers Akademi Aarhus IT-Arkitektur 2021\\4 Semester\\IT-arkitektur & IT-infrastruktur\\Opgaver\\Modul12\\Micro\\ServiceWorker\\ServiceWorker.csproj",
+      "projectUniqueName": "C:\\Users\\mathi\\Skol\\Skole\\It-infrastruktur-og-arkitektur\\Micro\\ServiceWorker\\ServiceWorker.csproj",
       "projectName": "ServiceWorker",
-      "projectPath": "C:\\FraOneDrive\\Dokumenter\\Erhvers Akademi Aarhus IT-Arkitektur 2021\\4 Semester\\IT-arkitektur & IT-infrastruktur\\Opgaver\\Modul12\\Micro\\ServiceWorker\\ServiceWorker.csproj",
-      "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-      "outputPath": "C:\\FraOneDrive\\Dokumenter\\Erhvers Akademi Aarhus IT-Arkitektur 2021\\4 Semester\\IT-arkitektur & IT-infrastruktur\\Opgaver\\Modul12\\Micro\\ServiceWorker\\obj\\",
+      "projectPath": "C:\\Users\\mathi\\Skol\\Skole\\It-infrastruktur-og-arkitektur\\Micro\\ServiceWorker\\ServiceWorker.csproj",
+      "packagesPath": "C:\\Users\\mathi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mathi\\Skol\\Skole\\It-infrastruktur-og-arkitektur\\Micro\\ServiceWorker\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1679,6 +1831,18 @@
           "Microsoft.Extensions.Hosting": {
             "target": "Package",
             "version": "[7.0.1, )"
+          },
+          "NLog": {
+            "target": "Package",
+            "version": "[5.1.3, )"
+          },
+          "NLog.Targets.Loki": {
+            "target": "Package",
+            "version": "[1.4.6, )"
+          },
+          "NLog.Web.AspNetCore": {
+            "target": "Package",
+            "version": "[5.2.3, )"
           },
           "RabbitMQ.Client": {
             "target": "Package",

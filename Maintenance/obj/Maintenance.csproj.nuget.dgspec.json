@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\FraOneDrive\\Dokumenter\\Erhvers Akademi Aarhus IT-Arkitektur 2021\\4 Semester\\IT-arkitektur & IT-infrastruktur\\Opgaver\\Modul12\\Micro\\Maintenance\\Maintenance.csproj": {}
+    "C:\\Users\\mathi\\Skol\\Skole\\It-infrastruktur-og-arkitektur\\Micro\\Maintenance\\Maintenance.csproj": {}
   },
   "projects": {
-    "C:\\FraOneDrive\\Dokumenter\\Erhvers Akademi Aarhus IT-Arkitektur 2021\\4 Semester\\IT-arkitektur & IT-infrastruktur\\Opgaver\\Modul12\\Micro\\Maintenance\\Maintenance.csproj": {
+    "C:\\Users\\mathi\\Skol\\Skole\\It-infrastruktur-og-arkitektur\\Micro\\Maintenance\\Maintenance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FraOneDrive\\Dokumenter\\Erhvers Akademi Aarhus IT-Arkitektur 2021\\4 Semester\\IT-arkitektur & IT-infrastruktur\\Opgaver\\Modul12\\Micro\\Maintenance\\Maintenance.csproj",
+        "projectUniqueName": "C:\\Users\\mathi\\Skol\\Skole\\It-infrastruktur-og-arkitektur\\Micro\\Maintenance\\Maintenance.csproj",
         "projectName": "Maintenance",
-        "projectPath": "C:\\FraOneDrive\\Dokumenter\\Erhvers Akademi Aarhus IT-Arkitektur 2021\\4 Semester\\IT-arkitektur & IT-infrastruktur\\Opgaver\\Modul12\\Micro\\Maintenance\\Maintenance.csproj",
-        "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-        "outputPath": "C:\\FraOneDrive\\Dokumenter\\Erhvers Akademi Aarhus IT-Arkitektur 2021\\4 Semester\\IT-arkitektur & IT-infrastruktur\\Opgaver\\Modul12\\Micro\\Maintenance\\obj\\",
+        "projectPath": "C:\\Users\\mathi\\Skol\\Skole\\It-infrastruktur-og-arkitektur\\Micro\\Maintenance\\Maintenance.csproj",
+        "packagesPath": "C:\\Users\\mathi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mathi\\Skol\\Skole\\It-infrastruktur-og-arkitektur\\Micro\\Maintenance\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
